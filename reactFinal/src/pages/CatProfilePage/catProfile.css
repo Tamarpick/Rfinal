@@ -1,0 +1,75 @@
+.mainContainer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	min-height: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.catProfileContainer {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 95%;
+	border-radius: 15px;
+	padding: 2rem;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.profileDetailsContainer {
+	display: grid;
+	grid-template-rows: 3fr 1fr;
+	gap: 2rem;
+}
+
+.catInfoContainer {
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	gap: 1rem;
+}
+
+.catInfoContainer img {
+	max-width: 600px;
+	max-height: 500px;
+}
+
+.catDescription {
+	font-family: cursive;
+}
+
+.catAttributes {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+}
+
+.catAdditionalInfo {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.catStylizedAdditionalInfo {
+	color: black;
+	height: 9rem;
+	width: 9rem;
+	padding: 0.5rem;
+	background-image: linear-gradient(to top left, #00d2ff 0%, #3a4752 100%);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.catStylizedAdditionalInfo label {
+	font-size: 1.5rem;
+	text-wrap: wrap;
+	width: 100%;
+	text-align: center;
+	font-family: cursive;
+}
+
+.catStylizedTag {
+	padding: 0.5rem;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	border: 1px solid white;
+}
